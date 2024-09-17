@@ -1,0 +1,104 @@
+ .body {
+        margin: 0px;
+        padding: 0;
+
+    }
+
+    .nav {
+        margin-top: 0px;
+        background-color: white;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    .unlimited {
+        margin-left: 76vw;
+        margin-top: 8px;
+        text-align: center;
+        height: 35px;
+        width: 117px;
+        background: greenyellow;
+        color: black;
+        padding: 5px;
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 17px;
+        margin-right: 14px;
+        font-family: sans-serif;
+        cursor: pointer;
+        border: none;
+    }
+
+    nav h1 {
+        margin: 9px;
+        font-size: 32px;
+        font-family: sans-serif;
+    }
+
+    nav i {
+        margin-top: 14.6px;
+        font-size: 32px;
+    }
+
+    .middle {
+        padding-top: 53px;
+    }
+
+    .middle-text {
+        text-align: center;
+        font-family: sans-serif;
+
+    }
+
+    .middle-button {
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        color: black;
+    }
+
+    .middle-button button {
+        background: greenyellow;
+        color: black;
+        border-radius: 10px;
+        font-size: 21px;
+        font-weight: lighter;
+        border: none;
+        height: 33px;
+        width: 177px;
+        cursor: pointer;
+    }
+
+    .card-wrapper {
+        row-gap: 17px;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card {
+        height: 330px;
+        width: 450px;
+    }
+
+    .card img {
+        width: 450px;
+        position: absolute;
+    }
+
+    .card h5 {
+        margin-top: 125px;
+        font-size: 29px;
+    }
+
+    .gif img {
+        visibility: hidden;
+        position: relative;
+        top: 44px;
+        height: 173px;
+        width: 112px;
+        left: 160px;
+    }
